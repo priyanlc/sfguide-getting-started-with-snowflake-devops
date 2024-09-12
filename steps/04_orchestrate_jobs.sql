@@ -12,6 +12,9 @@ create or alter table vacation_spots (
   , avg_relative_humidity_pct float
   , avg_cloud_cover_pct float
   , precipitation_probability_pct float
+  , aquarium_cnt int
+  , zoo_cnt int
+  , korean_restaurant_cnt int
   -- STEP 5: INSERT CHANGES HERE
 ) data_retention_time_in_days = 1;
 
